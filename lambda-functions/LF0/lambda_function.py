@@ -2,7 +2,9 @@ import json
 import boto3
 import uuid
 
-client = boto3.client('lex-runtime', region_name='us-west-2',aws_access_key_id = 'AKIAUCZJ3GP6LI7ZMHAR', aws_secret_access_key = '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')
+# use access key and secret key to achieve cross-account connection to Lex Bot
+# Cannot provide this information in the submission
+client = boto3.client('lex-runtime', region_name='us-west-2',aws_access_key_id = '********', aws_secret_access_key = '***************')
 # client = boto3.client('lex-runtime')
 last_response = None
 
