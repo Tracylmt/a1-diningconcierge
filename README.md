@@ -10,10 +10,16 @@ This implementation is a serverless, microservice-driven web application. Specif
 Open the url in a browser: https://a1diningconcierge.s3.amazonaws.com/chat.html
   
 ## Architecture Diagram
-![diagram](img/ArchitectureDiagram.png)
+<img src="img/ArchitectureDiagram.png" width="800">
   
 ## Chatbot Screenshot
-![diagram](img/ChatbotExample.png)
+### Web application ###
+<img src="img/ChatbotExample.png" width="600">
+  
+### Message recived ###
+<img src="img/EmailReceived.png">
+  
+<img src="img/TextReceived.jpg" width="300">
   
 ## Used Services
 - AWS S3 bucket - host the front-end
