@@ -20,7 +20,6 @@ def lambda_handler(event, context):
         userId="qwert",
         inputText=event['messages'][0]['unstructured']['text'],
     )
-    last_response = response
     
     return {
       "messages": [
