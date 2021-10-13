@@ -28,7 +28,9 @@ def get_openSearch(cuisine, area):
         ]}
       }
     }
-    r = requests.get(opensearch_url, json=data, headers=headers, auth = HTTPBasicAuth('master', 'Master1!'))
+    # authentication for opensearch
+    # sorry, cannot provide the user and password to submission
+    r = requests.get(opensearch_url, json=data, headers=headers, auth = HTTPBasicAuth('******', '********'))
     response_dict = json.loads(r.text)
     return response_dict['hits']['hits']
 
