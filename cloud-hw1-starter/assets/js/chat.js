@@ -78,12 +78,12 @@ $(document).ready(function() {
             }
           }
         } else {
-          insertResponseMessage('message else: Oops, something went wrong. Please try again.');
+          insertResponseMessage('Oops, something went wrong. Please try again.');
         }
       })
       .catch((error) => {
         console.log('an error occurred', error);
-        insertResponseMessage('error: Oops, something went wrong. Please try again.');
+        insertResponseMessage('Oops, something went wrong. Please try again.');
       });
   }
 
